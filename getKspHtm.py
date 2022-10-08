@@ -126,3 +126,5 @@ for _, c in cities.iterrows():
 
 df.to_json(os.sep.join([root,"results.json"]),orient="records")
 
+print("Distribution\n",df.year.value_counts().sort_index())
+
