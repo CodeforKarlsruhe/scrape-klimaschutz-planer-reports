@@ -1,4 +1,5 @@
 """ https://stackoverflow.com/questions/11790535/extracting-data-from-html-table """
+""" Extract from files in directory, no new download """
 import sys
 from bs4 import BeautifulSoup
 import pandas as pd
